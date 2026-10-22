@@ -1,4 +1,4 @@
-Não tenho acesso ao seu repositório Git; a adaptação abaixo usa o conteúdo do arquivo enviado, com remoção de repetições e padronização das informações.
+
 
 # Digital Store API: Projeto Backend
 
