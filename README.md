@@ -231,3 +231,5 @@ tests/             # testes automatizados (Jest e Supertest)
 ## Equipe
 
 LUCAS MATHEUS DANTAS RIBEIRO
+GERAÇÃO TECH 4.0
+Desenvolvimento Fullstack
