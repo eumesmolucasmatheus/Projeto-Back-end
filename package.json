@@ -1,0 +1,39 @@
+{
+  "name": "projeto-backend",
+  "version": "1.1.0",
+  "description": "Digital Store API - Projeto Backend (Node.js, Express, Sequelize, MySQL, JWT)",
+  "author": "Lucas Matheus Dantas Ribeiro",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "migrate": "sequelize-cli db:migrate",
+    "migrate:undo": "sequelize-cli db:migrate:undo:all",
+    "seed": "sequelize-cli db:seed:all",
+    "test": "jest --runInBand",
+    "watch": "jest --runInBand --watch",
+    "coverage": "c8 jest --runInBand"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "setupFiles": ["<rootDir>/tests/setupEnv.js"],
+    "testMatch": ["<rootDir>/tests/**/*.test.js"]
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1",
+    "sequelize": "^6.37.7",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "c8": "^10.1.3",
+    "jest": "^30.0.2",
+    "nodemon": "^3.1.10",
+    "sequelize-cli": "^6.6.3",
+    "supertest": "^7.1.1"
+  }
+}
