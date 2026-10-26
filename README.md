@@ -208,7 +208,7 @@ Os filtros podem ser combinados. A resposta tem o formato `{ data, total, limit,
 
 Script SQL completo em [`database/projeto_backend.sql`](database/projeto_backend.sql) (alternativa às migrations: `mysql -u root -p < database/projeto_backend.sql`).
 
-![Diagrama do banco de dados](docs/img/diagrama-mysql.png)
+![Diagrama do banco de dados](/img/diagrama-mysql.png)
 
 ## Estrutura do projeto
 
